@@ -1,0 +1,19 @@
+#sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: pink;
+  transition: 1s;
+
+  &:not(.open) {
+    translate: -100%;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
